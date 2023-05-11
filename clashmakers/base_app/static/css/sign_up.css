@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    font-family: "Montserrat";
+
+    height: 60px;
+    background-color: #707070;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    color: #ffffff;
+}
+.header_menu_part {
+    color: #f0f0f0;
+}
+.header_menu_part:hover {
+    color: #ff5733;
+}
+#signup {
+    color :#b8b8b8;
+}
+#signup:hover {
+    color: #33FF66;
+}
+.header_menu {
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.login_signup {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+main {
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signup_card {
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    width: 30%;
+    height: 500px;
+    border: #707070 solid 2px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup_input {
+    width: 80%;
+    font-family: "Montserrat";
+    font-size: 175%;
+    line-height: 6px;
+    color: #303030;
+    background-color: #f0f0f0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid #707070;
+}
+textarea:focus, input:focus {outline: none;}
+#signup_button {
+    font-family: "Montserrat";
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    border: #707070 solid 2px;
+    color: #707070;
+    background-color: #f0f0f0;
+}
+#signup_button:hover {
+    color: #ff5733;
+    border-color: #ff5733;
+}

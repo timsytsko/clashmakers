@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clash</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@300&display=swap"
+    rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="header_menu">
+            <a class="header_menu_part" href="#">Contact Us</a>
+            <a class="header_menu_part" href="rules">Rules</a>
+        </div>
+            <a class="header_logo" href="/"><strong>CLASHMAKERS</strong></a>
+        <div class="login_signup">
+            <a class="header_menu_part" id="signup" href="signup">Sign Up</a>
+            <a class="header_menu_part" id="login" href="login">Login</a>
+        </div>
+    </header>
+    
+    <main>
+
+    </main>
+    
+    <div style="height: 20px;  background-color: #f0f0f0;"></div>
+    <footer>
+        <div class="contacts">
+            <p>phone number: +7 985 000 00 01</p>
+            <p>email: clashmakerr@gmail.com</p>
+        </div>
+        <div class ="author">
+            <p>site was made by tim</p>
+            <p>telegarm: @tim_sytsko</p>
+        </div>
+    </footer>
+    
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+</html>

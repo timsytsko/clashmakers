@@ -1,0 +1,138 @@
+* {
+    font-family: "Montserrat";
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    font-family: "Montserrat";
+
+    height: 60px;
+    background-color: #707070;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    color: #ffffff;
+}
+.header_menu_part {
+    color: #f0f0f0;
+}
+.header_menu_part:hover {
+    color: #ff5733;
+}
+#signup {
+    color :#b8b8b8;
+}
+#signup:hover {
+    color: #33FF66;
+}
+.header_menu {
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.login_signup {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main {
+    background-color: #f0f0f0;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.event_info {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.participants {
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.score {
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.date {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.bet_btn {
+    font-size: larger;
+    border: 2px solid #707070;
+    color: #ff0062;
+    margin-bottom: 5%;
+    background-color: #f0f0f0;
+    width: 30%;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bet_btn:hover {
+    background-color: #b8b8b8;
+}
+.bet_btn_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bet_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.participant_1_score {
+    user-select: none; 
+    display: inline;
+    font-size: 50px;
+}
+.colon {
+    user-select: none; 
+    display: inline;
+    font-size: 50px;
+}
+.participant_2_score {
+    user-select: none; 
+    display: inline;
+    font-size: 50px;
+}
+.send_btn {
+    border: none;
+    border-radius: 4px;
+    width: 20%;
+    height: 40px;
+    background-color: #ff5733;
+}
+.send_btn:hover {
+    color: #33FF66;
+}
+.tip {
+    color: #ff0062;
+}
+.bettors_div {
+    display: flex;
+    justify-content: center;
+}
+.have_placed_div {
+    display: flex;
+    justify-content: center;
+}

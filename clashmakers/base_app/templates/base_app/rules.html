@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/rules.css' %}">
+</head>
+<body>
+    <p class="title"><strong>Правила зачисления очков</strong></p>
+    <ul>
+        <div class="points_rules text">
+            <li>Угадан исход матча – +1 балл</li>
+            <li>Угадана сумма забитых голов –  +1 балл</li>
+            <li>Угадано сколько забила команда 1 – +1 балл</li>
+            <li>Угадано сколько забила команда 2 – + 1 балл</li>
+            <li>Угадал сколько забила каждая из команд – +1 балл</li>
+            <li>Если ты очень красивая девочка – +1 балл</li>
+        </div>
+    </ul>
+    <p class="x text">
+        <strong>Примечание</strong>: за полуфиналы, матч за третье место дают x2 баллов, за финал x3 баллов.
+    </p>
+    <p class="last text">
+        <strong>Пред турнирные ставки</strong>: нужно сделать ставку кто займет 1, 2, 3 место на чм. Если угадываете на каком именно месте закончит турнир команда – +10 баллов. Если угадываете команду, которая входит в первую 3-ойку мест, но не угадываете на каком именно месте закончит турнир команда – +5 баллов
+    </p>
+    <a href="/"><img class="fww_em" src="{% static 'fww/fww_em.jpg' %}" alt="fww_em"></a>
+    <p>з.ы. дизайн будет переделан после того как разработчик обретет скил</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+* {
+    background-color: #6F1313;
+}
+.text {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+.title {
+    position: absolute;
+    width: 537px;
+    height: 128px;
+    left: 10%;
+    top: 100px;
+
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 64px;
+
+    color: #38F8E1;
+}
+.points_rules {
+    position: absolute;
+    width: 677px;
+    height: 351px;
+    left: 200px;
+    top: 225px;
+    list-style: "\26BD";
+}
+.fww_em {
+    position: absolute;
+    width: 499px;
+    height: 463px;
+    left: calc(50% - 499px/2 + 412.5px);
+    top: 65px;
+    
+    background: url(msg1950400124-23909.jpg);
+    mix-blend-mode: lighten;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    
+    border-radius: 123px;
+}
+.x {
+    position: absolute;
+    width: 1211px;
+    height: 260px;
+    left: 175px;
+    top: 500px;
+}
+.last {
+    position: absolute;
+    left: 175px;
+    top: 600px;
+}
